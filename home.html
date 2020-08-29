@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <title>Latitudes</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <ul>
+        <li><a href='localhost:5000'>Home</a></li>
+        <li><a href='localhost:5000/temperatures'>Temperature</a></li>
+        <li><a href='localhost:5000/wind'>Wind</a></li>
+        <li><a href='localhost:5000/clouds'>Clouds</a></li>
+        <li><a href='localhost:5000/humidity'>Humidity</a></li>
+    </ul>
+
+    <h1>Welcome to Latitudes!</h1>
+
+    <p id="p1"> This website will look at how latitude affects weather<br>
+        accross the globe. The data was gathered from the <br>
+        OpenWeatherMap API using 500 different cities as reference points.
+    </p>
+
+    <img src="Northern_temps.png" alt="Space Doggo" width="600" height="400">
+
+    <p><br>
+        <br>
+        <br>
+        <br>
+        Once the data was<br>
+        gathered, Matplotlib<br>
+        was used to chart<br>
+        the various weather<br>
+        aspects being analyzed.<br>
+        These include:<br>
+        Temperature<br>
+        Wind Speed<br>
+        Cloud Cover<br>
+        Humidity<br>
+    </p>
+
+    <div class="sidebar">
+        <img id='img1' src="Northern_temps.png" alt="Unavailable" width="300" height="200">
+        
+        <img id='img2' src="northern_wind.png" alt="Unavailable" width="300" height="200">
+        
+        <img id='img3' src="northern_clouds.png" alt="Unavailable" width="300" height="200">
+        
+        <img id='img4' src="northern_humidity.png" alt="Unavailable" width="300" height="200">
+    </div>
+</body>
