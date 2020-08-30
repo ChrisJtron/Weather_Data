@@ -4,50 +4,96 @@
 <head>
   <meta charset="UTF-8">
     <title>Latitudes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
-    <ul>
-        <li><a href='localhost:5000'>Home</a></li>
-        <li><a href='localhost:5000/temperatures'>Temperature</a></li>
-        <li><a href='localhost:5000/wind'>Wind</a></li>
-        <li><a href='localhost:5000/clouds'>Clouds</a></li>
-        <li><a href='localhost:5000/humidity'>Humidity</a></li>
-    </ul>
-
-    <h1>Welcome to Latitudes!</h1>
-
-    <p id="p1"> This website will look at how latitude affects weather<br>
-        accross the globe. The data was gathered from the <br>
-        OpenWeatherMap API using 500 different cities as reference points.
-    </p>
-
-    <img src="Northern_temps.png" alt="Space Doggo" width="600" height="400">
-
-    <p><br>
-        <br>
-        <br>
-        <br>
-        Once the data was<br>
-        gathered, Matplotlib<br>
-        was used to chart<br>
-        the various weather<br>
-        aspects being analyzed.<br>
-        These include:<br>
-        Temperature<br>
-        Wind Speed<br>
-        Cloud Cover<br>
-        Humidity<br>
-    </p>
-
-    <div class="sidebar">
-        <img id='img1' src="Northern_temps.png" alt="Unavailable" width="300" height="200">
-        
-        <img id='img2' src="northern_wind.png" alt="Unavailable" width="300" height="200">
-        
-        <img id='img3' src="northern_clouds.png" alt="Unavailable" width="300" height="200">
-        
-        <img id='img4' src="northern_humidity.png" alt="Unavailable" width="300" height="200">
+   
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul>
+                     <li><a href='index.html'>Home</a></li>
+                    <li><a href='temps.html'>Temperature</a></li>
+                    <li><a href='wind.html'>Wind</a></li>
+                    <li><a href='clouds.html'>Clouds</a></li>
+                    <li><a href='humidity.html'>Humidity</a></li>
+                    <li><a href='data.html'>Data</a></li>
+                    <li><a href="comparisons.html">Comparisons</a></li>
+                </ul>
+                
+            </div>
+        </div>
     </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Welcome to Latitudes!</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <p id="p1"> This website will look at how latitude affects weather
+                    accross the globe. The data was gathered from the
+                    OpenWeatherMap API using 500 different cities as reference points.
+                </p>    
+            </div>
+
+            <div class="col-lg-3">
+                <p>
+                </p>
+            </div>
+
+            <div class="col-lg-3">
+                <img src="Northern_temps.png" alt="Unavailable" width="300" height="200">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-5">
+                <img src="Northern_temps.png" alt="Unavailable" width="600" height="400">
+            </div>
+        
+            <div class="col-lg-4">
+                <p><br>
+                    Once the data was
+                    gathered, Matplotlib
+                    was used to chart
+                    the various weather
+                    aspects being analyzed.
+                    These include:<br>
+                    Temperature<br>
+                    Wind Speed<br>
+                    Cloud Cover<br>
+                    Humidity<br>
+                </p>
+            </div>
+
+            <div class="col-lg-3">
+                <img src="northern_wind.png" alt="Unavailable" width="300" height="200">
+                <img src="northern_clouds.png" alt="Unavailable" width="300" height="200">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-9">
+                <p>
+                </p>
+            </div>
+            <div class=col-lg-3>
+                <img src="northern_humidity.png" alt="Unavailable" width="300" height="200">
+            </div>
+        </div>
+    </div>
+
+
 </body>

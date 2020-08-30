@@ -33,28 +33,25 @@ ul {
   }
 
 #p1 {position: relative;
-    left: 80px;
+    text-align: left;
 }
 
-  img {
-      float: left;
-      background-color: cadetblue;
-  }
+  
 
 #img1 {
-    position: fixed;
-    top: 155px;
-    right: 375px;
-}
-
-#img2 {
-    position: fixed;
-    top: 155px;
+    position: relative;
+    top: 120px;
     right: 50px;
 }
 
+/* #img2 {
+    position: relative;
+    top: 155px;
+    right: 50px;
+} */
+
 #img3 {
-    position: fixed;
+    position: relative;
     top: 380px;
     right: 375px;
 }
