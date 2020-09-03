@@ -5,18 +5,39 @@
   <meta charset="UTF-8">
     <title>Clouds</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <ul>
-        <li><a href='index.html'>Home</a></li>
-        <li><a href='temps.html'>Temperature</a></li>
-        <li><a href='wind.html'>Wind</a></li>
-        <li><a href='clouds.html'>Clouds</a></li>
-        <li><a href='humidity.html'>Humidity</a></li>
-        <li><a href='data.html'>Data</a></li>
-        <li><a href="comparisons.html">Comparisons</a></li>
-    </ul>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-11">
+                <ul>
+                     <li><a href='index.html'>Home</a></li>
+                    <li><a href='temps.html'>Temperature</a></li>
+                    <li><a href='wind.html'>Wind</a></li>
+                    <li><a href='clouds.html'>Clouds</a></li>
+                    <li><a href='humidity.html'>Humidity</a></li>
+                    <li><a href='data.html'>Data</a></li>
+                    <li><a href="comparisons.html">Comparisons</a></li>
+                </ul>    
+            </div>
+            <div class="col-lg-1">
+                <button class= "dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="temps.html">Temperature</a>
+                    <a class="dropdown-item" href="wind.html">Wind</a>
+                    <a class="dropdown-item" href="clouds.html">Clouds</a>
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                  </div>
+            </div>
+
+        </div>
+    </div>
 
     <h1>Latitude VS Cloud Cover in the Northern Hemisphere</h1>
 

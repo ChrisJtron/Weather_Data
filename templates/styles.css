@@ -36,28 +36,3 @@ ul {
     text-align: left;
 }
 
-  
-
-#img1 {
-    position: relative;
-    top: 120px;
-    right: 50px;
-}
-
-/* #img2 {
-    position: relative;
-    top: 155px;
-    right: 50px;
-} */
-
-#img3 {
-    position: relative;
-    top: 380px;
-    right: 375px;
-}
-
-#img4 {
-    position: fixed;
-    top: 380px;
-    right: 50px;
-}
