@@ -23,6 +23,9 @@ ul {
     text-decoration: none;
   }
   
+  #togback {
+    background-color: #333;
+  }
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #111;
@@ -63,4 +66,89 @@ ul {
     position: fixed;
     top: 380px;
     right: 50px;
+}
+
+.wrapper {
+  position: relative;
+  height: 1000px;
+  padding: 20px;
+  margin: 0;
+  background: black;
+  background-image: url("https://www.lexisnexis.com/LexTalk/cfs-file.ashx/__key/communityserver-discussions-components-files/5/shutterstock_5F00_159102473.jpg");
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.pages {
+  position: relative;
+  height: 800px;
+  padding: 20px;
+  margin: 0;
+  background: black;
+  background-image: url("https://images.all-free-download.com/images/graphiclarge/hd_picture_fresh_blue_sky_and_flowers_165986.jpg");
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+#windy {
+  position: relative;
+  height: 800px;
+  padding: 20px;
+  margin: 0;
+  background: black;
+  background-image: url("https://www.ge.com/news/sites/default/files/styles/full_header/public/Reports/2020-03/wind-onshore-48-158-3d-landscape-1-3000px.jpg?itok=MdBGJ3Tk");
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.cloudy {
+  position: relative;
+  height: 800px;
+  padding: 20px;
+  margin: 0;
+  background: black;
+  background-image: url("https://techcrunch.com/wp-content/uploads/2015/08/clouds.jpg?w=1390&crop=1");
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.humid {
+  position: relative;
+  height: 800px;
+  padding: 20px;
+  margin: 0;
+  background: black;
+  background-image: url("https://animalcorner.org/wp-content/uploads/2015/02/tropforest.jpg");
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+
+.comp {
+  position: relative;
+  height: 800px;
+  padding: 20px;
+  margin: 0;
+  background: black;
+  background-image: url("https://images.immediate.co.uk/production/volatile/sites/4/2018/08/iStock_78579229_XLARGE-2aa4b63.jpg?webp=true&quality=90&resize=940%2C399");
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.data {
+  position: relative;
+  height: 800px;
+  padding: 20px;
+  margin: 0;
+  background: black;
+  background-image: url("https://anchorinnack.com/wp-content/uploads/2019/09/Nantucket-Brant-Point-lighthouse-1500x609.jpg");
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-size: cover;
 }
